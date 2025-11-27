@@ -1,13 +1,14 @@
 {
   "name": "my-component-library",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "type": "module",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["component","react"],
+  "author": "valdemar_check",
   "license": "ISC",
   "packageManager": "pnpm@10.23.0",
   "devDependencies": {
