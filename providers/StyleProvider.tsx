@@ -1,7 +1,5 @@
-import { PropsWithChildren } from "react";
-import "./style/reset.css";
-import "./style/style.css";
+import { PropsWithChildren, ReactNode } from "react";
 
-export default function StyleProvider({ children }: PropsWithChildren) {
+export default function StyleProvider({ children }: PropsWithChildren): ReactNode {
   return children;
 }

@@ -1,6 +1,6 @@
 {
   "name": "@valdemarchk/mcl",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "Eclipse Public License - v2.0",
   "exports": "./mod.ts",
   "scripts": {
