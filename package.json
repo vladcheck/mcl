@@ -1,13 +1,18 @@
 {
   "name": "my-component-library",
   "version": "0.1.0",
-  "description": "",
+  "license": "Eclipse Public License - v2.0",
+  "exports": "./mod.ts",
+  "description": "An unopinionated React component library",
   "type": "module",
-  "main": "index.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "node": ">=14.17.0"
   },
-  "keywords": ["component","react"],
+  "main": "index.ts",
+  "keywords": [
+    "component",
+    "react"
+  ],
   "author": "valdemar_check",
   "license": "ISC",
   "packageManager": "pnpm@10.23.0",
