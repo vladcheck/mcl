@@ -1,20 +1,22 @@
 {
-  "name": "my-component-library",
+  "name": "@valdemarchk/mcl",
   "version": "0.1.0",
   "license": "Eclipse Public License - v2.0",
   "exports": "./mod.ts",
+  "scripts": {
+    "jsr:publish": "pnpm dlx jsr publish"
+  },
+  "repository": {
+    "url": "https://github.com/vladcheck/mcl"
+  },
   "description": "An unopinionated React component library",
   "type": "module",
-  "engines": {
-    "node": ">=14.17.0"
-  },
-  "main": "index.ts",
+  "main": "mod.ts",
   "keywords": [
     "component",
     "react"
   ],
   "author": "valdemar_check",
-  "license": "ISC",
   "packageManager": "pnpm@10.23.0",
   "devDependencies": {
     "@types/react": "^19.2.7",
